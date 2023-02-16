@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #181D31;
+  font-family: League Spartan;
+}
+
+.card{
+  background-color: white;
+  border-radius: 5px;
+  width: 250px;
+  height: 30%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+h1{
+  text-align: center;
+}
+
+form{
+  margin-left: 1em;
+}
+
+form label{
+  display: flex;
+}
+
+form input{
+  width: 90%;
+  padding: 7.5px;
+  border-radius: 2px;
+  margin: 5px 5px 5px 0;
+  background-color: #E6DDC4;
+  border: none;
+  font-family: League Spartan;
+}
+
+input[type="submit"]{
+  background-color: #181D31;
+  color: white;
+  margin-top: 20px;
+}
+
+.suggestion{
+  color: white;
+  text-align: center;
+}
+
+a{
+  color: #678983;
+  text-decoration: none;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+}
