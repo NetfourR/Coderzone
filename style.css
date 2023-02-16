@@ -1,14 +1,11 @@
-
 .container{
-  border-bottom: solid 0.5px white;
-background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 19%, rgba(0,0,0,1) 55%, rgba(255,0,0,1) 100%);
+  background-color: #181D31;
   display: flex;
   justify-content: space-between;
 }
 
 body{
-  background-color: black;
+  background-color: #181D31;
   list-style: none;
   text-decoration: none;
 }
