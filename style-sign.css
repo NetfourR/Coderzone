@@ -3,12 +3,12 @@
 }
 
 body{
-  background-color: #181D31;
+  background-color: white;
   font-family: League Spartan;
 }
 
 .card{
-  background-color: white;
+  background-color: red;
   border-radius: 5px;
   width: 250px;
   height: 30%;
