@@ -1,43 +1,32 @@
-.container{
-  background-color: #181D31;
-  display: flex;
-  justify-content: space-between;
-}
-
-body{
-  background-color: white;
-  list-style: none;
-  text-decoration: none;
-}
-
 *{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-
-.left{
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
+.tog{
+  margin-top: 20px !important;
+  border: none !important;
 }
 
-.right{
-  width: 190px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 30px;
-}
-
-.center{
-  display: flex;
+img{
+  margin-bottom: 10px!important;
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 20px;
-  color: white;
-  font-family: League Spartan;
+  margin: 0px;
+  color: black !important;
 }
+
+i{
+  font-size: 20px !important;
+  color: black ;
+  margin-right: 30px ;
+}
+
+nav{
+  padding-right: 10px ;
+  padding-left: 10px ;
+}
+
