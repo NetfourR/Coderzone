@@ -1,3 +1,3 @@
-# The Archives
+# Coderzone
 
-A website where users can buy, sell or distribute for free anything digital.
+A website where developers can buy, sell or distribute for free anything digital.
