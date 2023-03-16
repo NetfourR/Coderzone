@@ -135,8 +135,16 @@ input{
   font-family: League Spartan;
 }
 
+.right{
+  margin-top: 5px;
+}
+
 ul{
   margin-left: 7px!important;
+}
+
+.icon i{
+  margin-top: 1px;
 }
 
 .icon[aria-hidden="true"]{
@@ -145,6 +153,7 @@ ul{
   text-decoration: none;
   display: flex;
   justify-content: flex-end;
+  margin-top: 6px;
   margin-right: 7px;
   align-items: center;
 }
