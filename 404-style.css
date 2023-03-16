@@ -1,0 +1,51 @@
+*{
+  background-color: #121212;
+}
+
+.navbar-brand-logo{
+  margin-left: 30px;
+}
+
+.container{
+  margin-left: 60px;
+}
+
+h1
+{
+  font-family: League Spartan;
+  font-size: 60px;
+}
+
+
+h3{
+  font-weight: 400;
+}
+body{
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  color: #00ff91;
+}
+
+
+/* Mobile support */
+
+@media (max-width: 480px){
+  .navbar-brand-logo{
+  margin-left: 0px;
+}
+h1{
+  font-weight: 500;
+}
+  .logo-img{
+    width: 250px;
+  }
+
+.container{
+  margin-left: 20px;
+}
+}

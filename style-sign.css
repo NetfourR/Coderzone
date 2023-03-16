@@ -1,14 +1,15 @@
 *{
   box-sizing: border-box;
+  color: white;
 }
 
 body{
-  background-color: white;
+  background-color: #121212;;
   font-family: League Spartan;
 }
 
 .card{
-  background-color: red;
+  background-color: #202020;
   border-radius: 5px;
   width: 250px;
   height: 30%;
@@ -35,15 +36,17 @@ form input{
   padding: 7.5px;
   border-radius: 2px;
   margin: 5px 5px 5px 0;
-  background-color: #E6DDC4;
-  border: none;
+  background-color: #202020;
+  border-style: solid;
+  border-width: 1.5px;
   font-family: League Spartan;
 }
 
 input[type="submit"]{
-  background-color: #181D31;
+  background-color: #0ca663;
   color: white;
   margin-top: 20px;
+  border: none;
 }
 
 .suggestion{
@@ -52,11 +55,26 @@ input[type="submit"]{
 }
 
 a{
-  color: #678983;
+  color: #00d5ff;
   text-decoration: none;
 }
 
 .img{
   display: flex;
   justify-content: center;
+}
+
+/* Mobile support */
+
+@media (max-width: 480px){
+  .img{
+    margin-top: 20px;
+    margin-left: 1em;
+  }
+  .sign-img{
+    width: 250px;
+  }
+  .suggestion{
+    font-size: 15px;
+  }
 }
