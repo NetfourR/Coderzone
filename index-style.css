@@ -460,6 +460,12 @@ ul{
   }
 }
 
+@media (max-width: 280px){
+  .footer-basic{
+    width: vw;
+  }
+}
+
 @media only screen and (min-width: 480px) and (max-width: 1024px){
   .button{
     display: none;
