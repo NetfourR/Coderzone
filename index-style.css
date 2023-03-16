@@ -243,7 +243,12 @@ ul{
   margin-left: -25px;
 }
 
+.search{
+  border-radius: 15px;
+}
+
 .plus{
+  margin-top: 5px;
    margin-left: 3.5px;
 }
 
