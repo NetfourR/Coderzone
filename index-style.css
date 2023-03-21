@@ -1,7 +1,19 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
 /* Main CSS */
 
 body{
   background-color: #121212 !important;
+}
+
+.place{
+  transition: 0.2s;
+}
+
+.place:focus{
+  outline: none;
+  border: 2px solid #0079f2;
+  transition: 0.2s;
 }
 
 *{
@@ -20,7 +32,28 @@ h1
   color: white;
   font-family: Inter;
   font-weight: 500;
+}
 
+.see-all{
+  margin-top: 14px;
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+  font-family: League Spartan;
+  transition: 0.4s !important;
+}
+
+.see-all:hover{
+  text-decoration: none;
+  transition: 0.4s !important;
+  color: #00ff91 !important;
+}
+
+.see-all-i{
+  color: white;
+  font-size: 15px;
 }
 
 .title{
@@ -53,7 +86,7 @@ h1
 /* Search bar */
 
 i[aria-hidden="true"]{
-  background-color: #202020;
+  background-color: transparent;
   font-size: 20px;
   color: #9c9ea0;
   margin: 3px;
@@ -81,8 +114,8 @@ input{
   padding-left: 10px;
   width: 100%;
   height: 2em;
-  border: none;
-  background-color: #202020;
+  border: solid 2px #202020;
+  background-color: #121212;
   padding-right: 1px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -109,8 +142,14 @@ input{
 
 /* Login */
 
+.right .icon{
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: 17px;
+}
 
 .login{
+  
   margin-top: 3px;
   color:white;
   text-decoration: none;
@@ -136,7 +175,8 @@ input{
 }
 
 .right{
-  margin-top: 5px;
+  margin-top: -10px !important;
+  width: auto !important;
 }
 
 ul{
@@ -161,6 +201,12 @@ ul{
 /* .icon:hover{
   color: #00ff91
 } */
+
+.profile:hover ~ .login-text{
+  transition: 0.1s;
+  color: #00ff91 !important;
+  text-decoration: none !important;
+}
 
 .login-text:hover{
   transition: 0.1s;
@@ -208,12 +254,79 @@ ul{
   color: #898989 !important;
 }
 
+/* .hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  font-size: 10px;
+  opacity: 0;
+  width: 20px;
+  background-color: #585858;
+  color: #fff;
+  font-family: League Spartan;
+  text-align: center;
+  border-radius: 4px;
+  padding: 8px;
+  transition: opacity 1s ease-in-out;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+} */
+
+.tooltip{
+   tooltip-bg: #585858;
+}
+
+
+.notif-i{
+  color: white;
+  font-size: 17px;
+}
+
+.notif-button{
+  background-color:transparent;
+  margin-left: 15px;
+  border-radius: 50%;
+  transition: 0.4s;
+  border: none;
+}
+
+.notif-button:hover{
+  transition: 0.4s;
+  background-color: #877d7d;
+}
+
+.cart-button:hover{
+  transition: 0.4s;
+  background-color: #877d7d;
+}
+
+.cart-i{
+  color: white;
+  font-size: 17px;
+}
+
+.cart-button{
+  background-color: transparent;
+  border-radius: 50%;
+  transition: 0.4s;
+  border: none;
+}
+
+.cart-button:hover{
+  transition: 0.4s;
+  background-color: #877d7d;
+}
+
 .button{
-  margin-left: 32px;
-  margin-top: -10px;
+  margin-left: 17px;
   text-decoration: none;
   border: none;
-  font-size: 15px;
+  font-size: 1rem;
   background-color: #0053A6;
   color: white;
   font-family: League Spartan;
@@ -234,7 +347,7 @@ ul{
   font-style: normal;
   background-color: transparent;
   margin-top: 8.5px;
-  font-size: 18px;
+  font-size: .875rem !important;
 }
 
 .right{
@@ -273,6 +386,7 @@ ul{
   margin-left: 4em !important;
   margin-top: 2em;
 }
+
 
 
 .container2 {
@@ -381,6 +495,34 @@ ul{
 }
 }
 
+.home-item{
+  margin-left: -15px !important;
+  padding-left: 15px !important;
+  margin-right: 110px !important;
+  border-radius: 10px !important;
+  background-color: #272727 !important;
+  color: white !important;
+  transition: 0.4s !important;
+}
+
+.home-item a i{
+  color: white !important; 
+}
+
+.home-item a h4{
+  color: white !important;
+}
+
+.home-item a h4:hover{
+  color: white !important;
+}
+
+.home-item:hover{
+  color:white !important; 
+  transition: 0.4s !important;
+  background-color: #473e3e !important;
+}
+
 /* Offcanvas icons position */
 
 .explore-i{
@@ -389,10 +531,17 @@ ul{
 .models-i{
   padding-right: 7px;
 }
-
+.home-i{
+  padding-right: 6px;
+}
 .login-i{
   font-size: 28px !important;
   padding-right: 20px;
+}
+
+.scripts-i{
+  padding-left: 1px;
+  padding-right: 5px;
 }
 /* Footer */
 
@@ -475,6 +624,15 @@ ul{
 }
 
 @media (max-width: 280px){
+  .see-all {
+    margin-top: 7px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .notifications{
+  display: none;
+}
+  .cart{display:none}
   .footer-basic{
     width: vw;
   }
@@ -508,7 +666,6 @@ h1{
   padding-left: 10px;
   width: 100%;
   height: 2em;
-  border: none;
   padding-right: 1px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -545,7 +702,7 @@ h1{
 
 @media only screen and (min-width: 1200px) and (max-width: 1550px){
   .right{
-    margin-right: 50px;
+    margin-right: 20px;
   }
 }
 
@@ -567,6 +724,15 @@ h1{
 }
 
 @media only screen and (max-width: 480px) and (min-width: 281px){
+  .see-all {
+    margin-top: 7px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+.notifications{
+  display: none;
+}
+  .cart{display:none}
 .button{
   display: none;
 }
@@ -587,8 +753,8 @@ h1{
   padding-left: 10px;
   width: 100%;
   height: 2em;
-  border: none;
   padding-right: 1px;
+  border: solid 2px #202020;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
@@ -618,59 +784,3 @@ h1{
     visibility: visible;
   }
 }
-
-/* i[aria-hidden="true"]{
-  background-color: #202020;
-  font-size: 20px;
-  color: #9c9ea0;
-  margin: 3px;
-}
-
-i[aria-hidden="true"]{
-  margin-right: 13px;
-}
-
-.search{
-  background-color: #202020;                                              
-  margin-top: 3em;
-  margin-left: 4.5em;
-  margin-bottom: 1rem;
-  width: 30%;
-}
-::placeholder{
-  color: #9c9ea0;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: 'Inter', sans-serif;
-}
-
-input{
-  padding-left: 10px;
-  width: 100%;
-  height: 2em;
-  border: none;
-  background-color: #202020;
-  padding-right: 1px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-.search-button{
-  height: 2em;
-  width: 10%;
-  background-color: #202020;
-  border: none;
-  padding-right: 0;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
-.search-form
-{
-  display: flex;
-}
-
-.submit{
-  padding-right: 0;
-}
- */
