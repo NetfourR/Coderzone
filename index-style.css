@@ -45,10 +45,14 @@ h1
   transition: 0.4s !important;
 }
 
+.offcanvas-start{
+  background-color: #121212 !important;
+}
+
 .see-all:hover{
-  text-decoration: none;
+  color: white;
   transition: 0.4s !important;
-  color: #00ff91 !important;
+  text-decoration: underline !important;
 }
 
 .see-all-i{
@@ -82,6 +86,20 @@ h1
   border: none;
 }
 
+.thenav-link{
+  color: white;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    margin: 17px;
+    font-size: 20px;
+  transition: 0.4s;
+}
+
+.thenav-link:hover{
+  transition: 0.4s;
+  color: #00ff91 !important;
+  text-decoration: none !important;
+}
 
 /* Search bar */
 
@@ -243,7 +261,7 @@ ul{
 }
 
 .nav-title:hover{
-  transition: 0.4s !important;
+    transition: 0.4s !important;
   color: #00ff91 !important;
 }
 
@@ -277,9 +295,6 @@ ul{
   visibility: visible;
 } */
 
-.tooltip{
-   tooltip-bg: #585858;
-}
 
 
 .notif-i{
@@ -322,12 +337,17 @@ ul{
   background-color: #877d7d;
 }
 
+.offcanvas-i:hover ~ .nav-title{
+    transition: 0.4s !important;
+  color: #00ff91 !important;
+}
+
 .button{
   margin-left: 17px;
   text-decoration: none;
   border: none;
   font-size: 1rem;
-  background-color: #0053A6;
+  background-color: #21c17c;
   color: white;
   font-family: League Spartan;
   padding-top: 5px;
@@ -340,7 +360,7 @@ ul{
 
 .button:hover{
   transition: 0.4s;
-  background-color: #0079f2;
+  background-color: #00ff91;
 }
 
 .button-i{
@@ -500,7 +520,7 @@ ul{
   padding-left: 15px !important;
   margin-right: 110px !important;
   border-radius: 10px !important;
-  background-color: #272727 !important;
+  background-color: #242424 !important;
   color: white !important;
   transition: 0.4s !important;
 }
@@ -543,6 +563,8 @@ ul{
   padding-left: 1px;
   padding-right: 5px;
 }
+
+
 /* Footer */
 
 
@@ -579,11 +601,13 @@ ul{
 
 .footer-basic .social {
   text-align:center;
-  padding-bottom:25px;
+  padding-bottom:19px;
 }
 
 .footer-basic .social > a {
-  font-size:24px;
+  padding-left: 2px;
+  padding-top: 2px;
+  font-size:19px;
   width:40px;
   height:40px;
   line-height:40px;
@@ -723,7 +747,9 @@ h1{
     width: 400px;}
 }
 
-@media only screen and (max-width: 480px) and (min-width: 281px){
+@media only screen and (max-width: 480px) and (min-width: 281px)
+{
+  .thenav-link{display:none}
   .see-all {
     margin-top: 7px;
     font-size: 16px;
