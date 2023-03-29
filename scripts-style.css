@@ -524,7 +524,7 @@ ul{
 }
 }
 
-.home-item{
+.scripts-item{
   margin-left: -15px !important;
   padding-left: 15px !important;
   margin-right: 110px !important;
@@ -534,19 +534,19 @@ ul{
   transition: 0.4s !important;
 }
 
-.home-item a i{
+.scripts-item a i{
   color: white !important; 
 }
 
-.home-item a h4{
+.scripts-item a h4{
   color: white !important;
 }
 
-.home-item a h4:hover{
+.scripts-item a h4:hover{
   color: white !important;
 }
 
-.home-item:hover{
+.scripts-item:hover{
   color:white !important; 
   transition: 0.4s !important;
   background-color: #473e3e !important;
